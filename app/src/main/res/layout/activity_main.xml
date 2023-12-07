@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lgreen"
+    android:padding="30dp"
+    tools:context="com.example.petalsync.MainActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_height="300dp"
+        android:layout_width="250dp"
+        app:shapeAppearanceOverlay="@style/ImageStyle_Circle"
+        android:background="@color/lgreen"
+        android:src="@drawable/petalsync"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logo"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:layout_width="600sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:layout_below="@+id/logo"
+        android:textStyle="bold"
+        android:textSize="30sp"
+
+        android:text="@string/blossom_in_harmony_petal_sync_where_pet_care_meets_seamless_coordination"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_btn"
+        android:background="@drawable/rounded_button"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:fontFamily="@font/font2"
+        android:textSize="50sp"
+        android:layout_marginBottom="20sp"
+
+        android:layout_above="@+id/login_btn"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_btn"
+        android:text="@string/login"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"
+        android:fontFamily="@font/font1"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+
+        />
+
+
+</RelativeLayout>

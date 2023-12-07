@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PetalSync</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="blossom_in_harmony_petal_sync_where_pet_care_meets_seamless_coordination">Petal Sync, Where Plant Care Meets Seamless Coordination.</string>
+    <string name="phonenumber">PhoneNumber</string>
+    <string name="already_have_an_account_click_to_login">Already have an account? Click to Login</string>
+    <string name="dont_have_an_account_click_to_register">Dont have an account? Click to register</string>
+</resources>
